@@ -10,7 +10,7 @@ import com.dbal.app.board.Board;
 @Service("boardService")  //service
 public class BoardServiceImpl {
 
-	// ∞¥√º¡÷¿‘
+
 	@Autowired
 	BoardMapper boardMapper;
 

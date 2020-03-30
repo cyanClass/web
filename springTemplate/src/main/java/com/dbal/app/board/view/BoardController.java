@@ -18,13 +18,13 @@ public class BoardController {
 		return "board/list";
 	}
 	
-	//µî·ÏÆû
+	//ë“±ë¡
 	@RequestMapping("/board/insertForm.do")
 	public String insertForm() {
 		return "board/insert";
 	}
 	
-	//µî·ÏÃ³¸®
+	//ë“±ë¡ì²˜ë¦¬
 	@RequestMapping("/board/insert.do")
 	public String insert(Board board) {
 		boardService.insert(board);
